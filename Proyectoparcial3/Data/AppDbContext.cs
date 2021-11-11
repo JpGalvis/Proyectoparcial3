@@ -12,7 +12,7 @@ namespace Proyectoparcial3.Data
     {
 
 
-        public DbSet<Gestion> Gestiones { get; set; } //Llama al modelo (Person) 
+        public DbSet<Gestion> Gestiones { get; set; } 
 
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
